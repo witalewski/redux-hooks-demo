@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import CounterWithoutHooks from './CounterWithoutHooks';
+import { CounterWithHooks } from './CounterWithHooks'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <CounterWithoutHooks />
+        <CounterWithHooks />
       </div>
     );
   }
